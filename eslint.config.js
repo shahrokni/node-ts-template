@@ -22,6 +22,16 @@ export default [
     rules: {
       ...pluginTypeScript.configs.recommended.rules,
       'prettier/prettier': 'error',
-    },
+      '@typescript-eslint/no-require-imports': 'off', 
+    },    
   },
+  {
+    files:['jest.config.ts'],
+    languageOptions: {
+      parser: parserTypeScript,
+      parserOptions: {
+        project: null,
+      },
+    },
+  }
 ];
