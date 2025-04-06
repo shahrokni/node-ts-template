@@ -10,8 +10,7 @@ You can run it in **two different ways** — depending on your environment and p
 - Docker installed
 - Docker Compose v2 (preferred) or legacy v1
 
-> [!WARNING]
-
+> **Warning**
 > If you're using Compose v1 (`docker-compose`), just replace `docker compose` with `docker-compose` in the commands below.
 
 ### Run the app:
