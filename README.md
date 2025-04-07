@@ -24,6 +24,7 @@ sudo docker compose up --build
 **_The simplest way to start developing_**
 
 ```bash
+npm i
 npm run dev
 ```
 
